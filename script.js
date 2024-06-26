@@ -41,4 +41,5 @@ function createIcon(classes) {
   return icon;
 }
 
+// AddEventListener to the form to call the addItem function when submitted
 itemForm.addEventListener('submit', addItem);
